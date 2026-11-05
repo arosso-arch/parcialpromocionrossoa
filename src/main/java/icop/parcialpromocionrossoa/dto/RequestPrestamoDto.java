@@ -1,0 +1,16 @@
+package icop.parcialpromocionrossoa.dto;
+
+import java.time.LocalDate;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class RequestPrestamoDto {
+    private Long socioId;
+    private String tituloLibro;
+    private LocalDate fechaPrestamo;
+}
